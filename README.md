@@ -73,3 +73,16 @@ docker-compose up -d
 * Buat SSH key: ssh-keygen && cat ~/.ssh/id_rsa.pub
 
 * Connect kan ssh key di EC2 ke github
+![](./image/ssh_key.jpg)
+
+* Lakukan git clone 
+```bash
+cd ~
+git clone git@github.com:goFrendiAsgard/alta-merdeka-mocking-2.git
+cd alta-merdeka-mocking-2
+git pull origin master
+```
+
+* Create secret
+![](./image/secret1.jpg)
+![](./image/secret2.jpg)
