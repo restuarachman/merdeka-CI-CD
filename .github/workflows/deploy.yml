@@ -21,6 +21,6 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           cd ~/merdeka-CI-CD
-          git pull origin master
+          git pull origin main
           docker-compose down
           docker-compose up --build -d
